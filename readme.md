@@ -16,15 +16,13 @@ https://docs.unity3d.com/Manual/CamerasOverview.html
 		* Broken Scenes 1-5 do NOT have anything wrong with the SCRIPTS-- you should be able to fix them WITHOUT touching code
 	* ### Scripting Needed in 6-10!
 		* Broken Scenes 6-10 DO have broken SCRIPTS that you will have to fix (with Visual Studio's help) 
-		* After fixing a script, you may need to implement some additional info in the inspector as well
-			* If you solved 1-5, this "additional info" will be fairly obvious
-		* Make sure you open the scripts used in that scene (e.g. MoveObject6.cs not MoveObject.cs)
+		* Make sure you open the scripts used in that scene (e.g. **MoveObject6.cs**, with a "6" on the end, not MoveObject.cs, without it)
 		* Every time you fix something in a script, write a comment explaining what you did and why you did it (e.g. // I changed the FIELD TYPE to GameObject because...)
-		* Just because they are broken DOES NOT mean they will have errors... they may be SYNTACTICALLY correct, but still not functional
+		* Just because they are broken DOES NOT mean they will have errors... they may be SYNTACTICALLY correct, but still not functional the way we want them to function
 		* For scripts that DO have SYNTAX errors, I've commented out the whole script. This is due to the fact that Unity won't run ANY scenes if a script is broken in the project.
 			* You can uncomment multiple lines by clicking and dragging to select those lines, then going to Edit > Advanced > Uncomment Selection 
 			* There is also a shortcut button located here:
-			IMAGE HERE---------
+			![image](https://user-images.githubusercontent.com/7291792/191106477-d73b0d19-df5f-4356-922c-beef74b0dd9d.png)
 		* It is NOT considered cheating to look at other, working scripts to see what is different, BUT it might be useful to try and puzzle it out for a while before comparing to other scripts
 
 2. Once you finish #1, add a third person perspective to the game
