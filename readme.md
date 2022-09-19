@@ -1,4 +1,4 @@
-# Week 5 - Perspective
+# Week 5 - Perspective (and review of Week 4 - Behaviors)
 
 ## Slides / Manual
 
