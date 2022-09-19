@@ -11,7 +11,7 @@ https://docs.unity3d.com/Manual/CamerasOverview.html
 	* Broken Scenes 1-8 have ONE thing wrong (although sometimes that one thing is wrong on multiple GameObjects, or a similar problem twice within a single script)
 	* Broken Scenes 9-10 have TWO things wrong 
 	* The problems are CUMULATIVE, so whatever you fix in Broken Scene 1, you'll also have to fix again in Broken Scene 2 and so forth (the goal here is to teach you through repetition, which is super annoying we know...)
-		* **The only exception to this is Broken Scene 6**, which doesn't have Broken Scene 5's problem because it would cause confusion
+		* ***The only exception to this is Broken Scene 6***, which doesn't have Broken Scene 5's problem because it would cause confusion
 	* Broken Scenes 1-5 do NOT have anything wrong with the SCRIPTS-- you should be able to fix them WITHOUT touching code
 	* Broken Scenes 6-10 DO have broken SCRIPTS that you will have to fix (with Visual Studio's help) 
 		* After fixing a script, you may need to implement some additional info in the inspector as well
